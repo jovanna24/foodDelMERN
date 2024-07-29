@@ -12,8 +12,10 @@ const App = () => {
   const [showLogin, setShowLogin] = useState(false)
 
   return (
-    <div>
-      {showLogin?<LoginPopup setShowLogin={setShowLogin} />:<> </>}
+    <>
+      {/* Conditionally render the LoginPopup component based on the value of the showLogin state. 
+      If showLogin is true, the LoginPopup component will be rendered. If showLogin is false, an empty fragment (<></>) will be rendered. */}
+      {showLogin?<LoginPopup setShowLogin={setShowLogin}/>:<></>}
     <div className='app'>
       <Navbar setShowLogin={setShowLogin} />
       <Routes>
@@ -23,7 +25,7 @@ const App = () => {
       </Routes>
     </div>
     <Footer />
-    </div>
+    </>
   )
 }
 
