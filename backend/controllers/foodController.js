@@ -5,7 +5,9 @@ import fs from "fs"; //file system
 
 const addFood = async (req, res) => {
 
-
+    if (!req.file) {
+        return res.status(400).json({ success: false, message: "No file uploaded" });
+    }
 
     let image_filename = `${req.file.filename}`;
 
