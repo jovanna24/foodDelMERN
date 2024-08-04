@@ -348,3 +348,5 @@ export const food_list = [
         category: "Noodles"
     }
 ]
+
+export default assets; 
