@@ -1,4 +1,4 @@
-import express from "express"
+const express = require('express');
 import cors from "cors"
 import { connectDB } from "./config/db.js"
 import foodRouter from "./routes/foodRoute.js"
