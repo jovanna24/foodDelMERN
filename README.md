@@ -48,7 +48,7 @@ Or:
 
 ## Contribution
 
-- GreatStack: https://greatstack.dev/go/tomato 
+- GreatStack: [https://greatstack.dev/go/tomato ](https://www.youtube.com/watch?v=DBMPXJJfQEA&t=399s&ab_channel=GreatStack)
 - BootCampSpot Tutoring Services
 
 ## Examples <a name="examples"></a> 
